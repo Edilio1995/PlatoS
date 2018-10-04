@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edilio.guitiming.SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#1BA16B"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:background="@drawable/textview"
+            android:text="Can you answers to a few questions?
+     (Not mandatory)"/>
+
+
+        <EditText
+            android:hint="Name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameText"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Surname"
+            android:id="@+id/surnameText"/>
+
+        <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Birthday (dd/mm/yyyyy)"
+        android:id="@+id/birthText"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Occupation (Work,University or School)"
+            android:id="@+id/occupationText"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Are you pracice on Android?"
+            android:textColor="#1BA16B"
+            android:letterSpacing="0.1"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/affermative"/>
+
+        <RadioButton
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:id="@+id/negative"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Set vibration on simulation?"
+            android:textColor="#1BA16B"
+            android:letterSpacing="0.1"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/affermativeVib"/>
+
+            <RadioButton
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/negativeVib"/>
+        </RadioGroup>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:onClick="foward"
+            android:id="@+id/sup"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Proceed"
+            android:textColor="#d9e5f3"
+            android:letterSpacing="0.1"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

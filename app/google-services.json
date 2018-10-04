@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "90493274495",
+    "firebase_url": "https://guidirectory.firebaseio.com",
+    "project_id": "guidirectory",
+    "storage_bucket": "guidirectory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90493274495:android:777b645a83d09783",
+        "android_client_info": {
+          "package_name": "com.example.edilio.guitiming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90493274495-rngjl0klgn7gqsg09t97h5206fgproie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edilio.guitiming",
+            "certificate_hash": "b4cfabdcb858d2d5a95bef0a93a83980c21fc6c7"
+          }
+        },
+        {
+          "client_id": "90493274495-cret0rvig4d8jgaeo920mg1m736b8v4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiK7_IQMwfwg7E1NG6uC3eRUNEjqeA1C4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90493274495-cret0rvig4d8jgaeo920mg1m736b8v4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
